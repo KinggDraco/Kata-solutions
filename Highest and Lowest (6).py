@@ -3,7 +3,7 @@ def high_and_low(list1):
     list2 = list1.split()
 
     for x in list2:
-        news.append(int(i))
+        news.append(int(x))
 
     news.sort()
 
