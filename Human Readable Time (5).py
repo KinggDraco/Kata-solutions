@@ -1,3 +1,6 @@
+# Objective: Convert a given amount of seconds into a human-readable format, parsed in digital clock format (H:MM:SS)
+
+
 def make_readable(seconds):
     hours = 0
     minutes = 0
