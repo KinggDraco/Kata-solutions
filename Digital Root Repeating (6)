@@ -1,0 +1,5 @@
+def digital_root(n):
+    while len(str(n)) > 1 : 
+        start = sum(int(x) for x in str(n))
+        n = start
+    return n
